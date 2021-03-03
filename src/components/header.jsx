@@ -1,3 +1,6 @@
+import { VscGlobe } from 'react-icons/vsc'
+import { RiArrowDownSFill } from 'react-icons/ri'
+
 const Header = () => (
   <header className="component_header">
     <div className="header_container">
@@ -17,17 +20,29 @@ const Header = () => (
       <div className="header_navbar">
         <nav className="header_navigation">
           <ul className="header_list">
-            <li className="header_item">WhatsApp Web</li>
-            <li className="header_item">Recursos</li>
-            <li className="header_item">Download</li>
-            <li className="header_item">Segurança</li>
-            <li className="header_item">Central de Ajuda</li>
+            <li className="header_item item">WhatsApp Web</li>
+            <li className="header_item item">Recursos</li>
+            <li className="header_item item">Download</li>
+            <li className="header_item item">Segurança</li>
+            <li className="header_item item">Central de Ajuda</li>
           </ul>
         </nav>
       </div>
       <div className="header_intl">
-        <button>
-          <img src="" alt="Language" />
+        <button className="header_button">
+          <VscGlobe 
+            className="header_globe" 
+            size={18}
+            color="fff" />
+        </button>
+        <h2 className="header_locale item">
+          PT (BR)
+        </h2>
+        <button className="header_button">
+          <RiArrowDownSFill
+            className="header_globe"
+            size={18} 
+            color="fff" />
         </button>
       </div>
     </div>
