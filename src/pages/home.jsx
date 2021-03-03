@@ -1,9 +1,11 @@
-import Header from '../components/header'
+import HomeLayout from '../layout/home.layout'
 
 const Home = () => (
-  <div class="pages_home">
-    <Header />
-  </div>
+  <HomeLayout>
+    <div key="container" className="container">
+      <h1>Home</h1>
+    </div>
+  </HomeLayout>
 )
 
 export default Home
