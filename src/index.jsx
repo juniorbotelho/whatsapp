@@ -1,10 +1,14 @@
+import './style/global.scss'
+import './style/components/header.scss'
+import './style/pages/home.scss';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Home from './pages/home';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );
