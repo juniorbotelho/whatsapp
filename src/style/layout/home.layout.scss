@@ -7,4 +7,12 @@
     padding-bottom: 66px;
     display: flex;
   }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    width: 85%;
+    margin: 0 auto;
+  }
 }
