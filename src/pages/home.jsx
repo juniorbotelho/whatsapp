@@ -45,6 +45,17 @@ const Home = () => (
     <div data-key="container" className="container_cellphone">
       <div className="container_whatsapp"></div>
     </div>
+
+    <div data-key="grid" className="grid_content grid_application">
+      <Title type="minitext">Aplicativo WhatsApp Business</Title>
+      <div className="content"></div>
+      <div className="image"></div>
+    </div>
+    <div data-key="grid" className="grid_content grid_security">
+      2
+      <div className="image"></div>
+      <div className="content"></div>
+    </div>
   </HomeLayout>
 )
 
