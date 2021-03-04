@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 
 *, *::before,
 *::after {
@@ -11,4 +13,34 @@
 body {
   font-family: 'Open Sans', Roboto, 'Segoe UI', 'Helvetica Neue', sans-serif;
   font-size: 16px;
+}
+
+h1 {
+  font-family: 'Quicksand', 'Poppins', 'Open Sans', Roboto, sans-serif;
+  font-weight: 600;
+  color: #1c1e21;
+}
+
+p {
+  color: #282828;
+}
+
+sup {
+  display: inline;
+  opacity: 0.8;
+  vertical-align: top;
+  font-size: 0.7em;
+}
+
+.minitext {
+  font-size: 0.7em;
+  opacity: 0.8;
+}
+
+.mb_middle {
+  margin-bottom: 0.67em;
+}
+
+.mb_high {
+  margin-bottom: 2em;
 }

@@ -1,0 +1,16 @@
+.component_flat {
+  display: block;
+  line-height: 44px;
+  .button {
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+    .button_title {
+      margin-left: 0.4em;
+      font-weight: 400;
+      color: #1dbea5;
+    }
+  }
+}

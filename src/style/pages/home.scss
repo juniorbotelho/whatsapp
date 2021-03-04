@@ -3,7 +3,9 @@
     display: table-cell;
     padding-right: 40px;
     vertical-align: middle;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex: 1;
   }
   .container_cellphone{
