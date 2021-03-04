@@ -1,6 +1,9 @@
 import './style/global.scss'
 
 import './style/components/header.scss'
+import './style/components/title.scss'
+import './style/components/text.scss'
+import './style/components/button.scss'
 
 import './style/pages/home.scss'
 
