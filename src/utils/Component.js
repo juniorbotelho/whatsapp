@@ -14,7 +14,7 @@ class Component extends React.Component {
   // Public
   getComponentByKey(key) {
     return React.Children.map(this.children, (child) => {
-      if (key === child.key) {
+      if (key === child.props['data-key']) {
         return child;
       }
     });
